@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>Invert Colors</title>
+<link rel="stylesheet" href="./assets/css/reset.css" />
+<link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+
+  <img id="image1" width="640" height="480" style="display:none;"/>
+  <video width="640" height="480" autoplay loop="true" style="display:none;"></video>
+
+  <div class="description"><h2>Invert Colors</h2></div>
+
+  <div class="actions">
+    <button id="invertColors">Invert Colors</button>
+  </div>
+
+  <div class="primaryContainer">
+    <div class="source">
+      <h1>Source:</h1>
+        <div class="canvasContainer">
+          <canvas id="canvasInput" width="640" height="480"></canvas>
+        </div>
+    </div>
+
+    <div class="output">
+      <h1>Output:</h1>
+      <div class="canvasContainer">
+        <canvas id="canvasOutput" width="640" height="480"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/underscore.js"></script>
+<script src="./assets/js/colorUtils.js"></script>
+<script src="./assets/js/camUtils.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>

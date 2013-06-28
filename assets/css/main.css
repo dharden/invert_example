@@ -1,0 +1,54 @@
+body {
+  background-color:#eee;
+}
+
+.source h1,
+.output h1 {
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  padding: 11px;
+}
+
+.source, .output{
+  margin: 5px;
+  float:left;
+}
+
+.primaryContainer {
+  margin:0 auto;
+  width:1420px;
+}
+
+canvas {
+  background-color: #000;
+  margin: 27px;
+  float: left;
+  border: 1px solid #00ff00;
+}
+
+.canvasContainer {
+  border: 1px solid #000;
+  border-radius: 25px;
+  float: left;
+  background-color: #000;
+}
+
+
+h2 {
+  font-size:18px;
+  font-weight:bold;
+  font-family:arial;
+  text-align:center;
+  padding:15px;
+}
+
+.description {
+  width: 100%;
+  float: left;
+}
+
+.actions {
+  text-align:center;
+}
